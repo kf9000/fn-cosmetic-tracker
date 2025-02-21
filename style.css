@@ -1,6 +1,7 @@
 body{
     font-family: "Comic Sans MS";
-    font-size: 2em;
+    font-size: 30px;
+    font-size: 1.5vw;
     background-image: linear-gradient(to bottom right, lightgray,gray);
 }
 h1 {
@@ -8,7 +9,7 @@ h1 {
     margin-bottom: 50px;
     text-align: center;
     font-family: "Comic Sans MS";
-    font-size: 3rem;
+    font-size: 3em;
     letter-spacing: 0.15rem;
     text-transform: uppercase;
     color: white;
@@ -22,30 +23,36 @@ h1 {
                  -32px 32px 4px #f9a825,
                  -36px 36px 4px #ff5722;
 }
+.names{
+    text-align: center;
+}
 
-.brItems, .tracks, .carParts , .instruments{
-    width: 40%;
-    padding: 20px;
-    border: 1px solid black;
-    border-radius: 25px;
+.brItems, .tracks, .carParts , .instruments, .bundles{
+    text-align: left;
+    overflow: hidden;
+    height: 2em;
+    width: 45%;
+    padding: 1em;
+    border: 0.1em solid black;
+    border-radius: 1em;
     margin: 10px;
     align-items: center;
-    margin-inline: auto;
-    display: flex;
+    margin-inline: 0.4em;
+    display: inline-flex;
     background-image: linear-gradient(to bottom right, hotpink, purple);
 
 }
 
-.brItems img, .tracks img, .carParts img, .instruments img{
-    width: 70px;
-    height: auto;
-    border: 1px solid black;
-    border-radius: 100px;
+.brItems img, .tracks img, .carParts img, .instruments img, .bundles img{
+    width: 3em;
+    height: 3em;
+    border: 0.1em solid black;
+    border-radius: 10em;
     background-image: linear-gradient(to bottom right, salmon, pink);
 }
  
-.brItems p, .tracks p, .carParts p, .instruments p{
-    margin-left: 20px;
+.brItems p, .tracks p, .carParts p, .instruments p, .bundles p{
+    margin-left: 3em;
     color: white;
     text-shadow: -4px 4px 4px black;
 }
