@@ -10,7 +10,6 @@ function createDivs(list, type) {
         //name
         let name = document.createElement("p");
         if(type !== "tracks" && type !== "bundles"){
-            console.log(items)
             name.textContent = items.type.displayValue +": " + items.name;
         } 
         else if(type === "bundles"){
